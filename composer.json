@@ -1,5 +1,5 @@
 {
-    "name": "php-on-couch/php-on-couch",
+    "name": "hicones/php-on-couch",
     "type": "library",
     "description": "CouchDB NoSQL database access in PHP",
     "keywords": [
@@ -28,6 +28,12 @@
         {
             "name": "Alexis Côté",
             "email": "alexiscote19@hotmail.com",
+            "homepage": "https://popojargo.github.io/",
+            "role": "Developer"
+        },
+        {
+            "name": "Clément Tison",
+            "email": "tsn.clement@gmail.com",
             "homepage": "https://popojargo.github.io/",
             "role": "Developer"
         }

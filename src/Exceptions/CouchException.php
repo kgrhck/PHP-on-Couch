@@ -82,7 +82,7 @@ class CouchException extends Exception
         if (is_string($response))
             $response = self::parseRawResponse($response);
         if (!$response)
-            return new CouchNoResponseException();
+            return new CouchNoResponseException($response);
         if (isset($response['status_code']) && isset(self::$codeSubtypes[$response['status_code']])) {
             $class = __NAMESPACE__ . '\\' . self::$codeSubtypes[$response['status_code']];
             return new $class($response, $method, $url, $parameters);

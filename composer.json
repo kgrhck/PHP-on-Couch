@@ -1,5 +1,5 @@
 {
-    "name": "hicones/php-on-couch",
+    "name": "kgrhck/php-on-couch",
     "type": "library",
     "description": "CouchDB NoSQL database access in PHP",
     "keywords": [
